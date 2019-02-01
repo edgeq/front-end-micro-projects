@@ -72,3 +72,27 @@ body {
   color: #333;
   background: #f4f4f4;
 }
+
+/* PAGE ANIMATION */
+#page-1 h1 {
+  transform: translateY(-400px);
+  animation: heading var(--animate-speed) forwards ease-in;
+}
+
+#page-1 p {
+  transform: translateX(-1200px);
+  animation: paragraph calc(var(--animate-speed) + 1s)  forwards ease-in 1s;
+}
+
+/* KEYFRAMES */
+@keyframes heading {
+  to {
+    transform: translateY(0);
+}
+}
+
+@keyframes paragraph {
+  to {
+    transform: translateX(0);
+  }
+}
