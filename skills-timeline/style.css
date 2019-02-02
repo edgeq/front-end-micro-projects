@@ -21,7 +21,7 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     background: var(--primary-color);
-    color: #fff;
+    color: whitesmoke;
     overflow-x: hidden;
     padding-bottom: 50px;
 }
