@@ -44,7 +44,8 @@
     border-bottom: #444 dotted 1px;
     padding-bottom: 1rem;
   }
-  #article .container {
+  #article .container,
+  #about .container {
     padding: .25rem;
   }
   .page-container {
